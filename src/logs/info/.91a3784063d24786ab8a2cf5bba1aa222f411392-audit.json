@@ -1,0 +1,19 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "/Users/emad/Documents/github-searcher/src/logs/info/.91a3784063d24786ab8a2cf5bba1aa222f411392-audit.json",
+    "files": [
+        {
+            "date": 1613220549280,
+            "name": "/Users/emad/Documents/github-searcher/src/logs/info/2021-02-13.log",
+            "hash": "52b0329ddd75df030be6bbfde8ae5e2e"
+        },
+        {
+            "date": 1613377432493,
+            "name": "/Users/emad/Documents/github-searcher/src/logs/info/2021-02-15.log",
+            "hash": "ac91417fca73bfb701dc75fa921f0a7f"
+        }
+    ]
+}

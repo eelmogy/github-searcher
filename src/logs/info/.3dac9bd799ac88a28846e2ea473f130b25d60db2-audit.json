@@ -1,0 +1,14 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "/Users/emad/Documents/tradeling-challenge/github-searcher/src/logs/info/.3dac9bd799ac88a28846e2ea473f130b25d60db2-audit.json",
+    "files": [
+        {
+            "date": 1613416956363,
+            "name": "/Users/emad/Documents/tradeling-challenge/github-searcher/src/logs/info/2021-02-15.log",
+            "hash": "e76d36eb19373ea060c7d6ef5279fcd2"
+        }
+    ]
+}

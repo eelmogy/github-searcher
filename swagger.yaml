@@ -1,0 +1,47 @@
+tags:
+- name: Search
+  description: Github Search API
+
+paths:
+# [GET] search?type={type}&search={search}
+  /api/search?type={type}&search={search}:
+    get:
+      tags:
+      - search
+      summary: Search Github Users And Repos
+      parameters:
+      - name: type
+        in: path
+        description: Type
+        required: true
+        type: string
+      - name: search
+        in: path
+        description: Search Key
+        type: string
+        required: true  
+      responses:
+        200:
+          description: 'OK'
+        409:
+          description: 'Conflict'
+        500:
+          description: 'Server Error'
+# [GET] search/clear-cache
+  /api/clear-cache:
+    get:
+      tags:
+      - search
+      summary: Clear Cache
+      responses:
+        200:
+          description: 'OK'
+        409:
+          description: 'Conflict'
+        500:
+          description: 'Server Error'          
+
+
+schemes:
+ - https
+ - http

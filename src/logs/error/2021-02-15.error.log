@@ -1,0 +1,151 @@
+2021-02-15 11:23:53 error: uncaughtException: Cannot find module './routes/users.route'
+Require stack:
+- /Users/emad/Documents/github-searcher/src/server.ts
+Error: Cannot find module './routes/users.route'
+Require stack:
+- /Users/emad/Documents/github-searcher/src/server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (/Users/emad/Documents/github-searcher/src/server.ts:5:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (/Users/emad/Documents/github-searcher/node_modules/ts-node/src/index.ts:1056:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/emad/Documents/github-searcher/node_modules/ts-node/src/index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+2021-02-15 11:53:28 error: StatusCode : 401, Message : Bad credentials
+2021-02-15 11:53:30 error: StatusCode : 401, Message : Bad credentials
+2021-02-15 11:57:21 error: StatusCode : 500, Message : Cannot read property 'isCatched' of undefined
+2021-02-15 12:00:48 error: StatusCode : 500, Message : Cannot read property 'isCatched' of undefined
+2021-02-15 13:28:08 error: StatusCode : 500, Message : Cannot read property 'isCatched' of undefined
+2021-02-15 15:26:45 error: StatusCode : 500, Message : Cannot read property 'data' of undefined
+2021-02-15 15:27:11 error: StatusCode : 500, Message : Cannot read property 'data' of undefined
+2021-02-15 15:31:34 error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (/Users/emad/Documents/github-searcher/node_modules/express/lib/router/route.js:202:15)
+    at Function.proto.<computed> [as get] (/Users/emad/Documents/github-searcher/node_modules/express/lib/router/index.js:510:19)
+    at SearchRoute.initializeRoutes (/Users/emad/Documents/github-searcher/src/routes/search.route.ts:18:17)
+    at new SearchRoute (/Users/emad/Documents/github-searcher/src/routes/search.route.ts:13:10)
+    at Object.<anonymous> (/Users/emad/Documents/github-searcher/src/server.ts:10:40)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (/Users/emad/Documents/github-searcher/node_modules/ts-node/src/index.ts:1056:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/emad/Documents/github-searcher/node_modules/ts-node/src/index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+2021-02-15 15:35:12 error: uncaughtException: Cannot find module '../services/search.service'
+Require stack:
+- /Users/emad/Documents/github-searcher/src/controllers/search.controller.ts
+- /Users/emad/Documents/github-searcher/src/routes/search.route.ts
+- /Users/emad/Documents/github-searcher/src/server.ts
+Error: Cannot find module '../services/search.service'
+Require stack:
+- /Users/emad/Documents/github-searcher/src/controllers/search.controller.ts
+- /Users/emad/Documents/github-searcher/src/routes/search.route.ts
+- /Users/emad/Documents/github-searcher/src/server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (/Users/emad/Documents/github-searcher/src/controllers/search.controller.ts:2:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (/Users/emad/Documents/github-searcher/node_modules/ts-node/src/index.ts:1056:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/emad/Documents/github-searcher/node_modules/ts-node/src/index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+2021-02-15 15:36:09 error: uncaughtException: Cannot find module './routes/auth.route'
+Require stack:
+- /Users/emad/Documents/github-searcher/src/server.ts
+Error: Cannot find module './routes/auth.route'
+Require stack:
+- /Users/emad/Documents/github-searcher/src/server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (/Users/emad/Documents/github-searcher/src/server.ts:3:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (/Users/emad/Documents/github-searcher/node_modules/ts-node/src/index.ts:1056:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/emad/Documents/github-searcher/node_modules/ts-node/src/index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+2021-02-15 15:36:22 error: uncaughtException: Cannot find module './routes/auth.route'
+Require stack:
+- /Users/emad/Documents/github-searcher/src/server.ts
+Error: Cannot find module './routes/auth.route'
+Require stack:
+- /Users/emad/Documents/github-searcher/src/server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (/Users/emad/Documents/github-searcher/src/server.ts:3:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (/Users/emad/Documents/github-searcher/node_modules/ts-node/src/index.ts:1056:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/emad/Documents/github-searcher/node_modules/ts-node/src/index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+2021-02-15 15:36:25 error: uncaughtException: Cannot find module './routes/auth.route'
+Require stack:
+- /Users/emad/Documents/github-searcher/src/server.ts
+Error: Cannot find module './routes/auth.route'
+Require stack:
+- /Users/emad/Documents/github-searcher/src/server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (/Users/emad/Documents/github-searcher/src/server.ts:3:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (/Users/emad/Documents/github-searcher/node_modules/ts-node/src/index.ts:1056:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/emad/Documents/github-searcher/node_modules/ts-node/src/index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+2021-02-15 15:36:37 error: uncaughtException: Cannot find module './routes/auth.route'
+Require stack:
+- /Users/emad/Documents/github-searcher/src/server.ts
+Error: Cannot find module './routes/auth.route'
+Require stack:
+- /Users/emad/Documents/github-searcher/src/server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (/Users/emad/Documents/github-searcher/src/server.ts:3:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (/Users/emad/Documents/github-searcher/node_modules/ts-node/src/index.ts:1056:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/emad/Documents/github-searcher/node_modules/ts-node/src/index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+2021-02-15 15:37:22 error: uncaughtException: Cannot find module './routes/auth.route'
+Require stack:
+- /Users/emad/Documents/github-searcher/src/server.ts
+Error: Cannot find module './routes/auth.route'
+Require stack:
+- /Users/emad/Documents/github-searcher/src/server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (/Users/emad/Documents/github-searcher/src/server.ts:3:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (/Users/emad/Documents/github-searcher/node_modules/ts-node/src/index.ts:1056:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/emad/Documents/github-searcher/node_modules/ts-node/src/index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+2021-02-15 15:38:32 error: uncaughtException: Cannot find module './routes/auth.route'
+Require stack:
+- /Users/emad/Documents/github-searcher/src/server.ts
+Error: Cannot find module './routes/auth.route'
+Require stack:
+- /Users/emad/Documents/github-searcher/src/server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (/Users/emad/Documents/github-searcher/src/server.ts:3:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (/Users/emad/Documents/github-searcher/node_modules/ts-node/src/index.ts:1056:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/emad/Documents/github-searcher/node_modules/ts-node/src/index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)

@@ -1,0 +1,26 @@
+2021-02-13 13:08:57 error: StatusCode : 400, Message : email must be an email
+2021-02-13 13:10:22 error: StatusCode : 409, Message : You're not user
+2021-02-13 16:12:29 error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1318:16)
+    at listenInCluster (net.js:1366:12)
+    at Server.listen (net.js:1452:7)
+    at Function.listen (/Users/emad/Documents/github-searcher/node_modules/express/lib/application.js:618:24)
+    at App.listen (/Users/emad/Documents/github-searcher/src/app.ts:31:14)
+    at Object.<anonymous> (/Users/emad/Documents/github-searcher/src/server.ts:12:5)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (/Users/emad/Documents/github-searcher/node_modules/ts-node/src/index.ts:1056:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/emad/Documents/github-searcher/node_modules/ts-node/src/index.ts:1059:12)
+2021-02-13 16:13:34 error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1318:16)
+    at listenInCluster (net.js:1366:12)
+    at Server.listen (net.js:1452:7)
+    at Function.listen (/Users/emad/Documents/github-searcher/node_modules/express/lib/application.js:618:24)
+    at App.listen (/Users/emad/Documents/github-searcher/src/app.ts:31:14)
+    at Object.<anonymous> (/Users/emad/Documents/github-searcher/src/server.ts:12:5)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (/Users/emad/Documents/github-searcher/node_modules/ts-node/src/index.ts:1056:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/emad/Documents/github-searcher/node_modules/ts-node/src/index.ts:1059:12)
